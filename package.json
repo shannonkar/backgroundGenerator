@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "Creates background of webpage using HTML, CSS and Javascript. Using this project to learn Git and Github",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shannonkar/backgroundGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shannonkar/backgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/shannonkar/backgroundGenerator#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
